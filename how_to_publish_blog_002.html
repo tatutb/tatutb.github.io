@@ -2,13 +2,13 @@
 <html lang="ja">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>ほぼ呆然の日々 - Articles in the tec category</title>
+        <title>ほぼ呆然の日々</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -32,8 +32,21 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="ja">
+
+
+
+
+
+			<meta property="og:locale" content="ja">
 		<meta property="og:site_name" content="ほぼ呆然の日々">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/how_to_publish_blog_002.html">
+	<meta property="og:title" content="ブログを作る、あるいは作ったブログのための備忘録(たぶんその2)">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="//images/SDIM0772.jpg">
+	<meta property="article:published_time" content="2018-05-12 13:11:00+09:00">
 </head>
 
 <body>
@@ -64,12 +77,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('images/SDIM0772.jpg')">
+        <header class="intro-header" style="background-image: url('/images/SDIM0772.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles in the tec category</h1>
+                        <h1>ブログを作る、あるいは作ったブログのための備忘録(たぶんその2)</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/tatutb.html">tatutb</a>
+                             on 2018-05-12(土)
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,54 +98,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="/how_to_publish_blog_002.html" rel="bookmark" title="Permalink to ブログを作る、あるいは作ったブログのための備忘録(たぶんその2)">
-                <h2 class="post-title">
-                    ブログを作る、あるいは作ったブログのための備忘録(たぶんその2)
-                </h2>
-            </a>
-                <p class="first last">python+Pelicanでブログを作る、細かい設定など</p>
+    <!-- Post Content -->
+    <article>
+        <div class="section" id="python-pelican-github-pages">
+<h2>python＋pelican+github Pagesという選択肢</h2>
+<p>今度はpython+静的サイトで検索してみた。最初に引っかかったのが以下のサイトである。</p>
+<p>参考：<a class="reference external" href="https://qiita.com/ogrew/items/ecef0a4700d5bd4d875d">https://qiita.com/ogrew/items/ecef0a4700d5bd4d875d</a></p>
+<p>というわけでこのサイトの&#64;ogrewさんを信じて導入することにした。</p>
+<p>pelican content -o output -s pelicanconf.py</p>
+<p>ghp-import output
+git push origin gh-pages
+git push <a class="reference external" href="mailto:git&#64;github.com">git&#64;github.com</a>:tatutb/tatutb.github.io.git gh-pages:master</p>
+</div>
 
-            <p class="post-meta">Posted by
-                    <a href="/author/tatutb.html">tatutb</a>
-                 on 2018-05-12(土)
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="/how_to_publish_blog_001.html" rel="bookmark" title="Permalink to ブログを作る、あるいは作ったブログのための備忘録(たぶんその1)">
-                <h2 class="post-title">
-                    ブログを作る、あるいは作ったブログのための備忘録(たぶんその1)
-                </h2>
-            </a>
-                <div class="section"...
-            <p class="post-meta">Posted by
-                    <a href="/author/tatutb.html">tatutb</a>
-                 on 2018-04-07(土)
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="/restructuredtext_study.html" rel="bookmark" title="Permalink to reStructredText記法のテスト">
-                <h2 class="post-title">
-                    reStructredText記法のテスト
-                </h2>
-            </a>
-                reSTのテストを実施する
-            <p class="post-meta">Posted by
-                    <a href="/author/tatutb.html">tatutb</a>
-                 on 2018-04-02(月)
-            </p>
-        </div>
-        <hr>
+    </article>
 
-    <!-- Pager -->
-    <ul class="pager">
-        <li class="next">
-        </li>
-    </ul>
-    Page 1 / 1
     <hr>
+
             </div>
         </div>
     </div>
